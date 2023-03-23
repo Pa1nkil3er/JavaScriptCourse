@@ -1,1 +1,1 @@
-# JavaScriptCrashCourse which is organized by SoftServer
+# JavaScriptCrashCourse which is organized by SoftServe
