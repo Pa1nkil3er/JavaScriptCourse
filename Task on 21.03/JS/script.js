@@ -29,7 +29,7 @@ alert(`This flash drive can store ${amount.toFixed(0)} of 820 mb files `);
 
 const miles = 0.621371
 let km = +prompt("Write how much kms would you want to convert into miles: ")
-let converted = km / miles
+let converted = km * miles
 alert(`${km} km in miles will be: ${converted.toFixed(0)} `)
 
 //Task 7
@@ -44,9 +44,9 @@ alert(`It is ${left_hour} hours and ${left_minutes} minutes left till the end of
 //Task 8
 
 let digit = +prompt("Write a 3-digit number")
-let a = Math.floor((digit / 100))
-let b = digit % 10
-let c = Math.floor(((digit % 100) / 10))
+let a = (digit - digit % 100) / 100
+let c = digit % 10
+let b = (digit % 100 - c) / 10
 let reversed_digit = c.toString() + b.toString() + a.toString()
 alert(`${reversed_digit}`)
 
