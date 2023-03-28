@@ -1,32 +1,33 @@
 let symbol = prompt("Введіть число від 0 до 9")
 switch (symbol) {
 	case "0":
-		alert(')')
+		value = ')'
 		break;
 	case "1":
-		alert('!')
+		value = '!'
 		break;
 	case "2":
-		alert('@')
+		value = '@'
 		break;
 	case "3":
-		alert('#')
+		value = '#'
 		break;
 	case "4":
-		alert('$')
+		value = '$'
 		break;
 	case "5":
-		alert('%')
+		value = '%'
 		break;
 	case "6":
-		alert('^')
+		value = '^'
 		break;
 	case "7":
-		alert('&')
+		value = '&'
 	case "8":
-		alert('*')
+		value = '*'
 		break;
 	case "9":
-		alert('(')
+		value = '('
 		break;
 }
+alert(value)
