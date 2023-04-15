@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: cadetblue;
+}
+
+#time {
+	border-radius: 12px;
+	background-color: aquamarine;
+	font-size: 36px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: brown;
+	margin: auto auto;
+	text-align: center;
+	width: max-content;
+}
