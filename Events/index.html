@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+	<div>
+		<input type="text" name="" placeholder="Model:" id="model">
+		<input type="number" name="" placeholder="Year:" id="year">
+		<input type="number" name="" placeholder="Price:" id="price">
+		<input type="text" name="" placeholder="Purchase date" onfocus="(this.type = 'date')" id="date">
+		<input type="text" name="" placeholder="Color:" id="color">
+		<select id="status">
+			<option>Status of custom:</option>
+			<option>Yes</option>
+			<option>No</option>
+		</select>
+		<select id="type">
+			<option>Body type:</option>
+			<option>Sedam</option>
+			<option>Hetchback</option>
+			<option>Coupe</option>
+		</select>
+	</div>
+	<div>
+		<button id="addBtn">Add</button>
+		<button id="clearBtn">Clear</button>
+		<input type="text" id="searchInput" onkeyup="Search()" placeholder="Search for element...">
+	</div>
+	<table id="table">
+		<thead>
+			<tr>
+				<th>Model</th>
+				<th>Year</th>
+				<th>Price($) </th>
+				<th>Purchase date</th>
+				<th>Color</th>
+				<th>Status of custom clearence</th>
+				<th>Body type of car</th>
+			</tr>
+		</thead>
+		<tbody id="tbody"></tbody>
+	</table>
+	<script src="JS/script.js"></script>
+</body>
+
+</html>
